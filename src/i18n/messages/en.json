@@ -1,0 +1,164 @@
+{
+  "brand": {
+    "name": "Restaurante Lino",
+    "tagline": "Flavour, tradition and authenticity in the heart of Paredes de Coura, Castanheira"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "dishes": "Dishes",
+    "gallery": "Gallery",
+    "menu": "Menu",
+    "contact": "Contact",
+    "reserve": "Reserve"
+  },
+  "hero": {
+    "eyebrow": "Traditional Portuguese cuisine",
+    "title": "Restaurante Lino",
+    "ctaMenu": "View Menu",
+    "ctaReserve": "Book a Table"
+  },
+  "about": {
+    "eyebrow": "Our house",
+    "title": "Tradition you can taste",
+    "p1": "For generations, our family has been serving the genuine flavours of the Minho region, with recipes passed down from mother to daughter and the care of someone cooking for people they love. At Restaurante Lino, every plate is a small journey through the village cooking of Portugal — honest, generous and slowly simmered.",
+    "p2": "We work with local producers from Paredes de Coura: Barrosã beef raised on the mountain pastures, vinho verde from the valley, wood-fired bread, and cured meats from the neighbouring houses. Everything we serve is born within a few kilometres of Castanheira.",
+    "p3": "Sitting at Lino's table means stepping into a Portuguese home, hearing conversations around the fireplace and tasting the memory of the Minho without hurry.",
+    "stats": {
+      "years": "Years of tradition",
+      "local": "Local ingredients",
+      "recipes": "Family recipes"
+    }
+  },
+  "dishes": {
+    "eyebrow": "House specialties",
+    "title": "Dishes that tell a story",
+    "subtitle": "A selection of our most-loved plates, prepared at the old rhythm of the Minho.",
+    "items": {
+      "sarrabulho": {
+        "name": "Arroz de Sarrabulho",
+        "desc": "A centuries-old Minho recipe of rice, pork and mountain spices. Served in the iron pot, straight from the fire."
+      },
+      "bacalhau": {
+        "name": "Bacalhau à Lino",
+        "desc": "Our take on oven-baked salt cod, with smashed potatoes, confit onions and valley olive oil."
+      },
+      "posta": {
+        "name": "Posta Barrosã",
+        "desc": "Thick cut of PDO Barrosã veal, grilled over embers and served with roasted potatoes and turnip greens."
+      },
+      "rojoes": {
+        "name": "Rojões à Minhota",
+        "desc": "Pork marinated in house wine, slowly fried and served with chestnuts and orange."
+      },
+      "leiteCreme": {
+        "name": "Homemade Leite Creme",
+        "desc": "A family dessert with velvet custard, lemon peel and sugar burned at the table."
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "A glimpse of the house",
+    "title": "The Lino atmosphere"
+  },
+  "contact": {
+    "eyebrow": "Visit us",
+    "title": "At Lino's table",
+    "address": "Castanheira, 4940 Paredes de Coura, Portugal",
+    "phoneLabel": "Phone",
+    "phone": "+351 251 000 000",
+    "emailLabel": "Email",
+    "email": "reservas@restaurantelino.pt",
+    "hoursLabel": "Hours",
+    "hours": {
+      "weekdays": "Tuesday to Sunday · 12:00 – 15:00 and 19:00 – 22:30",
+      "closed": "Closed on Mondays"
+    },
+    "ctaReserve": "Reserve by phone",
+    "mapTitle": "Map of Castanheira, Paredes de Coura"
+  },
+  "menu": {
+    "eyebrow": "Our menu",
+    "title": "Restaurante Lino Menu",
+    "subtitle": "Cover, soups, starters, sea and river, pasture and mountain, Minho garden, children's dishes and sweets. Browse below or download the full menu as PDF.",
+    "download": "Download menu (PDF)",
+    "openPdf": "Open menu in new tab",
+    "noPreview": "Your device does not support PDF preview.",
+    "categories": {
+      "couvert": "Cover",
+      "sopa": "Soup",
+      "entradasFumeiros": "Starters & Smokehouse",
+      "mar": "From Sea & River",
+      "pasto": "From Pasture & Mountain",
+      "horta": "Minho Garden (Vegetarian / Vegan)",
+      "infantis": "Children's Dishes",
+      "docaria": "Sweets & Fruit"
+    },
+    "allergens": {
+      "title": "Allergen notice (EU Regulation No. 1169/2011)",
+      "text": "If you have any food allergy or intolerance, please inform our team before placing your order. Our dishes may contain or come into contact with traces of: Gluten (bread, cornbread, alheira, brownie), Crustaceans (prawns), Eggs (desserts, breaded items), Fish (salt cod, trout), Dairy (butter, cheese, risotto, ice cream), Tree Nuts (brownie, risotto), Celery, Mustard, Sesame Seeds, Sulphur Dioxide/Sulphites (wine and vinegar in seasonings)."
+    },
+    "items": {
+      "couvert": [
+        { "name": "Butter", "desc": "", "price": "€0.70" },
+        { "name": "Patés", "desc": "", "price": "€0.80" },
+        { "name": "Small Basket of Regional Bread", "desc": "", "price": "€1.50" },
+        { "name": "Seasoned Olives", "desc": "", "price": "€1.80" },
+        { "name": "Large Basket of Regional Bread", "desc": "", "price": "€2.00" }
+      ],
+      "sopa": [
+        { "name": "Soup of the Day", "desc": "", "price": "€3.00" }
+      ],
+      "entradasFumeiros": [
+        { "name": "Regional Cheese", "desc": "", "price": "€4.50" },
+        { "name": "Smokehouse Alheira on the Grill", "desc": "", "price": "€5.50" },
+        { "name": "Small Plate of Rojões", "desc": "", "price": "€6.00" },
+        { "name": "Plate of Salpicão", "desc": "", "price": "€6.50" },
+        { "name": "Fried Cornbread with Chouriço", "desc": "", "price": "€6.50" },
+        { "name": "Chouriço in Pomace Brandy", "desc": "", "price": "€6.50" },
+        { "name": "Gambas à Guilho", "desc": "", "price": "€12.50" }
+      ],
+      "mar": [
+        { "name": "Oven-Baked Trout Stuffed with Paredes de Coura Salpicão", "desc": "", "price": "€14.00" },
+        { "name": "Bacalhau à Lino", "desc": "Half portion (0.400–0.500 kg cut): €19.00 | Full portion (0.900–1.000 kg cut): €37.00", "price": "€19.00 / €37.00" },
+        { "name": "Bacalhau à Chefe", "desc": "Half portion (0.400–0.500 kg cut): €19.00 | Full portion (0.900–1.000 kg cut): €37.00", "price": "€19.00 / €37.00" },
+        { "name": "Salt Cod with Cornbread", "desc": "Half portion (0.400–0.500 kg cut): €19.00 | Full portion (0.900–1.000 kg cut): €37.00", "price": "€19.00 / €37.00" },
+        { "name": "Octopus à Lagareiro", "desc": "Prepared and ideally served for two", "price": "€41.00" }
+      ],
+      "pasto": [
+        { "name": "Arroz de Pica no Chão", "desc": "", "price": "€14.00" },
+        { "name": "Wild Boar Stew with Chestnuts", "desc": "", "price": "€15.00" },
+        { "name": "Portuguese-Style Sirloin Steak", "desc": "Generous cut of 0.350–0.400 kg", "price": "€16.90" },
+        { "name": "Posta Minhota", "desc": "Half portion (0.400–0.500 kg cut): €16.00 | Full portion (0.900–1.000 kg cut): €30.00", "price": "€16.00 / €30.00" },
+        { "name": "Kid Goat Roasted Country-Style", "desc": "For one person: €20.00 | For two people: €39.00", "price": "€20.00 / €39.00" }
+      ],
+      "horta": [
+        { "name": "Wild Mushroom Risotto", "desc": "", "price": "€12.00" }
+      ],
+      "infantis": [
+        { "name": "Spaghetti Bolognese", "desc": "", "price": "€7.00" },
+        { "name": "Hamburger on a Plate", "desc": "", "price": "€7.00" }
+      ],
+      "docaria": [
+        { "name": "Seasonal Fruit", "desc": "", "price": "€3.00" },
+        { "name": "Burnt Leite Creme", "desc": "", "price": "€3.50" },
+        { "name": "Homemade Chocolate Mousse", "desc": "", "price": "€3.50" },
+        { "name": "Convent French Toast", "desc": "", "price": "€4.00" },
+        { "name": "Orange Cake", "desc": "", "price": "€4.50" },
+        { "name": "Chocolate Brownie with Ice Cream", "desc": "", "price": "€5.00" }
+      ]
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "tagline": "Traditional cuisine in Paredes de Coura.",
+    "follow": "Follow",
+    "explore": "Explore",
+    "visit": "Visit us"
+  },
+  "lang": {
+    "label": "Language",
+    "pt": "PT",
+    "en": "EN"
+  }
+}
