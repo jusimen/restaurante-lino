@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import type {} from "@tanstack/react-start";
 
-const BASE_URL = ""; // TODO: replace with project URL once a domain is assigned
+const BASE_URL = "https://restaurantelino.com"; // TODO: replace with project URL once a domain is assigned
 
 export const Route = createFileRoute("/sitemap.xml")({
   server: {
