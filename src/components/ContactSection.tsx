@@ -16,7 +16,10 @@ export function ContactSection() {
               {t("contact.address")}
             </InfoRow>
             <InfoRow icon={<Phone className="h-5 w-5" />} label={t("contact.phoneLabel")}>
-              <a href={`tel:${t("contact.phone").replace(/\s/g, "")}`} className="hover:text-primary">
+              <a
+                href={`tel:${t("contact.phone").replace(/\s/g, "")}`}
+                className="hover:text-primary"
+              >
                 {t("contact.phone")}
               </a>
             </InfoRow>

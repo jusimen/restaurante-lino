@@ -26,7 +26,7 @@ export function AboutSection() {
             </figcaption>
           </figure>
           <div className="space-y-10">
-            <div className="grid gap-10 md:grid-cols-2">
+            <div className="grid gap-10 md:grid-cols-2 text-center lg:text-left">
               <p className="text-base leading-relaxed text-foreground/85">{t("about.p1")}</p>
               <p className="text-base leading-relaxed text-foreground/85">{t("about.p2")}</p>
             </div>
