@@ -34,20 +34,20 @@
     "eyebrow": "Especialidades da casa",
     "title": "Pratos que contam histórias",
     "subtitle": "Uma seleção dos nossos pratos mais queridos, preparados ao ritmo antigo do Minho.",
-    "items": {
-      "sarrabulho": {
+    "items": [
+      {
         "name": "Bacalhau á Ze do Pipo com gambas",
         "desc": "Receita centenária do Minho com arroz, carnes de porco e os temperos da serra. Servido na panela de ferro, ao lume."
       },
-      "bacalhau": {
+      {
         "name": "Arroz de Pica no chão",
         "desc": "A nossa interpretação do bacalhau no forno, com batata a murro, cebolada confitada e azeite virgem do vale."
       },
-      "rojoes": {
+      {
         "name": "Cabrito assado a moda da terra",
         "desc": "Carne de porco marinada em vinho da casa, frita lentamente e acompanhada de castanhas e laranja."
       }
-    }
+    ]
   },
   "gallery": {
     "eyebrow": "Um olhar pela casa",

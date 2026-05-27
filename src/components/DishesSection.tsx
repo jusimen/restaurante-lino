@@ -6,11 +6,7 @@ import bacalhauZePipo from "@/assets/dish-bacalhau-ze-pipo.png";
 import arrozPicaChao from "@/assets/dish-arroz-pica-chao.png";
 import cabrito from "@/assets/dish-cabrito.png";
 
-const dishKeys = [
-  { key: "bacalhauZePipo", image: bacalhauZePipo },
-  { key: "arrozPicaChao", image: arrozPicaChao },
-  { key: "cabrito", image: cabrito },
-] as const;
+const dishImages = [bacalhauZePipo, arrozPicaChao, cabrito] as const;
 
 export function DishesSection() {
   const { t } = useTranslation();
@@ -23,12 +19,12 @@ export function DishesSection() {
           subtitle={t("dishes.subtitle")}
         />
         <div className="mt-16 grid gap-6 md:gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {dishKeys.map(({ key, image }) => (
+          {dishImages.map((image, index) => (
             <DishCard
-              key={key}
+              key={index}
               image={image}
-              name={t(`dishes.items.${key}.name`)}
-              description={t(`dishes.items.${key}.desc`)}
+              name={t(`dishes.items.${index}.name`)}
+              description={t(`dishes.items.${index}.desc`)}
             />
           ))}
         </div>

@@ -34,20 +34,20 @@
     "eyebrow": "House specialties",
     "title": "Dishes that tell a story",
     "subtitle": "A selection of our most-loved plates, prepared at the old rhythm of the Minho.",
-    "items": {
-      "sarrabulho": {
+    "items": [
+      {
         "name": "Bacalhau à Zé do Pipo with prawns",
         "desc": "A centuries-old Minho recipe of rice, pork and mountain spices. Served in the iron pot, straight from the fire."
       },
-      "bacalhau": {
+      {
         "name": "Arroz de Pica no Chão",
         "desc": "Our take on oven-baked salt cod, with smashed potatoes, confit onions and valley olive oil."
       },
-      "rojoes": {
+      {
         "name": "Kid Goat Roasted Country-Style",
         "desc": "Pork marinated in house wine, slowly fried and served with chestnuts and orange."
       }
-    }
+    ]
   },
   "gallery": {
     "eyebrow": "A glimpse of the house",
