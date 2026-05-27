@@ -4,7 +4,6 @@ import { Footer } from "@/components/Footer";
 import { HeroSection } from "@/components/HeroSection";
 import { AboutSection } from "@/components/AboutSection";
 import { DishesSection } from "@/components/DishesSection";
-import { GallerySection } from "@/components/GallerySection";
 import { ContactSection } from "@/components/ContactSection";
 
 export const Route = createFileRoute("/en/")({
@@ -44,7 +43,6 @@ function HomePageEn() {
         <HeroSection />
         <AboutSection />
         <DishesSection />
-        <GallerySection />
         <ContactSection />
       </main>
       <Footer />
