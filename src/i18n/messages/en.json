@@ -24,6 +24,10 @@
     "p1": "Restaurante Lino is back, brought to life by the hands and soul of Chef Gomes. Born in our land, raised among these valleys and with a deep knowledge of the house's secrets, Chef Gomes takes command of the kitchen to bring back the magic, unhurried pace and authenticity of our traditional cuisine.",
     "p2": "We are not merely reopening a space; we are honouring a legacy. The iconic Barrosã beef posta and tender kid goat return to the grill, proudly raised by local shepherds and producers. Faithful salt cod, prepared with the respect Minho tradition demands, is king of the table once again.",
     "p3": "Past and present meet in an awakening of flavours you thought were kept only in memory. Come share this new chapter with us.",
+    "chef": {
+      "caption": "Chef Gomes from São Martinho de Coura",
+      "alt": "Chef Gomes in a white chef's coat with a Portuguese flag patch, in the Restaurante Lino kitchen"
+    },
     "stats": {
       "years": "Years of tradition",
       "local": "Local ingredients",

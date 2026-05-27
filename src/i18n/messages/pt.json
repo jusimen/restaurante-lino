@@ -24,6 +24,10 @@
     "p1": "O Restaurante Lino está de volta, ressuscitado pelas mãos e pela alma do Chefe Gomes. Natural da nossa terra, criado entre estes vales e conhecedor profundo dos segredos da casa, o Chefe Gomes assume os comandos da cozinha para trazer de volta a magia, o vagar e a autenticidade da nossa gastronomia tradicional.",
     "p2": "Não estamos apenas a reabrir um espaço; estamos a honrar um legado. A icónica Posta de Carne Barrosã e o tenro Cabrito regressam ao braseiro, criados com orgulho por pastores e produtores locais. O fiel Bacalhau, preparado com o respeito que a tradição minhota exige, volta a ser o rei da mesa.",
     "p3": "O passado e o presente encontram-se num despertar de sabores que julgava guardados na memória. Venha partilhar connosco este novo capítulo.",
+    "chef": {
+      "caption": "Chefe Gomes de São Martinho de Coura",
+      "alt": "Chefe Gomes, de farda branca com brasão de Portugal, na cozinha do Restaurante Lino"
+    },
     "stats": {
       "years": "Anos de tradição",
       "local": "Ingredientes locais",
