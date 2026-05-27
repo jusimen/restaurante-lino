@@ -20,10 +20,10 @@
   },
   "about": {
     "eyebrow": "A nossa casa",
-    "title": "Tradição que se prova à mesa",
-    "p1": "Há gerações que servimos os sabores genuínos do Minho, com receitas passadas de mãe para filha e o cuidado de quem cozinha para quem ama. No Restaurante Lino, cada prato é uma pequena viagem pela cozinha portuguesa de aldeia — honesta, generosa e feita à lume brando.",
-    "p2": "Trabalhamos com produtores locais de Paredes de Coura: a carne barrosã das pastagens da serra, o vinho verde dos vales, o pão cozido em forno de lenha e os enchidos curados nas casas vizinhas. Tudo o que serve a nossa mesa nasce a poucos quilómetros de Castanheira.",
-    "p3": "Sentar-se à mesa do Lino é entrar numa casa portuguesa, ouvir conversas em redor da lareira e provar a memória do Minho com vagar.",
+    "title": "O Renascer da Tradição em Paredes de Coura",
+    "p1": "O Restaurante Lino está de volta, ressuscitado pelas mãos e pela alma do Chefe Gomes. Natural da nossa terra, criado entre estes vales e conhecedor profundo dos segredos da casa, o Chefe Gomes assume os comandos da cozinha para trazer de volta a magia, o vagar e a autenticidade da nossa gastronomia tradicional.",
+    "p2": "Não estamos apenas a reabrir um espaço; estamos a honrar um legado. A icónica Posta de Carne Barrosã e o tenro Cabrito regressam ao braseiro, criados com orgulho por pastores e produtores locais. O fiel Bacalhau, preparado com o respeito que a tradição minhota exige, volta a ser o rei da mesa.",
+    "p3": "O passado e o presente encontram-se num despertar de sabores que julgava guardados na memória. Venha partilhar connosco este novo capítulo.",
     "stats": {
       "years": "Anos de tradição",
       "local": "Ingredientes locais",
@@ -36,24 +36,16 @@
     "subtitle": "Uma seleção dos nossos pratos mais queridos, preparados ao ritmo antigo do Minho.",
     "items": {
       "sarrabulho": {
-        "name": "Arroz de Sarrabulho",
+        "name": "Bacalhau á Ze do Pipo com gambas",
         "desc": "Receita centenária do Minho com arroz, carnes de porco e os temperos da serra. Servido na panela de ferro, ao lume."
       },
       "bacalhau": {
-        "name": "Bacalhau à Lino",
+        "name": "Arroz de Pica no chão",
         "desc": "A nossa interpretação do bacalhau no forno, com batata a murro, cebolada confitada e azeite virgem do vale."
       },
-      "posta": {
-        "name": "Posta Barrosã",
-        "desc": "Posta grossa de vitela barrosã DOP, grelhada na brasa e servida com batatas assadas e grelos."
-      },
       "rojoes": {
-        "name": "Rojões à Minhota",
+        "name": "Cabrito assado a moda da terra",
         "desc": "Carne de porco marinada em vinho da casa, frita lentamente e acompanhada de castanhas e laranja."
-      },
-      "leiteCreme": {
-        "name": "Leite Creme Caseiro",
-        "desc": "Sobremesa de família, com creme aveludado, casca de limão e açúcar queimado à mesa."
       }
     }
   },
@@ -66,13 +58,14 @@
     "title": "À mesa do Lino",
     "address": "Castanheira, 4940 Paredes de Coura, Portugal",
     "phoneLabel": "Telefone",
-    "phone": "+351 251 000 000",
+    "phone": "+351 251 037 747",
     "emailLabel": "Email",
-    "email": "reservas@restaurantelino.pt",
+    "email": "restaurante.lino.pcoura@gmail.com",
     "hoursLabel": "Horário",
     "hours": {
-      "weekdays": "Terça a Domingo · 12:00 – 15:00 e 19:00 – 22:30",
-      "closed": "Segunda-feira encerrado"
+      "hours1": "Segunda a Quinta · 12:00 – 15:00",
+      "hours2": "Sexta e Sábado · 12:00 – 15:00 · 19:00 - 22:00",
+      "hours3": "Domingo · 12:00 – 16:00"
     },
     "ctaReserve": "Reservar por telefone",
     "mapTitle": "Mapa de Castanheira, Paredes de Coura"
@@ -100,37 +93,36 @@
     },
     "items": {
       "couvert": [
-        { "name": "Manteiga", "desc": "", "price": "0,70 €" },
-        { "name": "Patés", "desc": "", "price": "0,80 €" },
-        { "name": "Cesto Pequeno de Pão Regional", "desc": "", "price": "1,50 €" },
+        { "name": "Cesto de Pão Regional (pequeno / grande)", "desc": "", "price": "1,50 € / 2,00 €" },
         { "name": "Azeitonas Temperadas", "desc": "", "price": "1,80 €" },
-        { "name": "Cesto Grande de Pão Regional", "desc": "", "price": "2,00 €" }
+        { "name": "Patés", "desc": "", "price": "0,80 €" },
+        { "name": "Manteiga", "desc": "", "price": "0,70 €" }
       ],
       "sopa": [
         { "name": "Sopa do Dia", "desc": "", "price": "3,00 €" }
       ],
       "entradasFumeiros": [
-        { "name": "Queijo Regional", "desc": "", "price": "4,50 €" },
-        { "name": "Alheira do Fumeiro na Brasa", "desc": "", "price": "5,50 €" },
-        { "name": "Pratinho de Rojões", "desc": "", "price": "6,00 €" },
+        { "name": "Gambas à Guilho", "desc": "", "price": "12,50 €" },
         { "name": "Prato de Salpicão", "desc": "", "price": "6,50 €" },
         { "name": "Broa Frita com Chouriça", "desc": "", "price": "6,50 €" },
         { "name": "Chouriça no Bagaço", "desc": "", "price": "6,50 €" },
-        { "name": "Gambas à Guilho", "desc": "", "price": "12,50 €" }
+        { "name": "Pratinho de Rojões", "desc": "", "price": "6,00 €" },
+        { "name": "Alheira do Fumeiro na Brasa", "desc": "", "price": "5,50 €" },
+        { "name": "Queijo Regional", "desc": "", "price": "4,50 €" }
       ],
       "mar": [
-        { "name": "Truta no Forno recheada com Salpicão de Paredes de Coura", "desc": "", "price": "14,00 €" },
         { "name": "Bacalhau à Lino", "desc": "Meia Dose (Posta de 0,400kg a 0,500kg): 19,00 € | Dose (Posta de 0,900kg a 1,000kg): 37,00 €", "price": "19,00 € / 37,00 €" },
-        { "name": "Bacalhau à Chefe", "desc": "Meia Dose (Posta de 0,400kg a 0,500kg): 19,00 € | Dose (Posta de 0,900kg a 1,000kg): 37,00 €", "price": "19,00 € / 37,00 €" },
+        { "name": "Bacalhau à Zé do Pipo \"com gambas\"", "desc": "Meia Dose (Posta de 0,400kg a 0,500kg): 19,00 € | Dose (Posta de 0,900kg a 1,000kg): 37,00 €", "price": "19,00 € / 37,00 €" },
         { "name": "Bacalhau com Broa", "desc": "Meia Dose (Posta de 0,400kg a 0,500kg): 19,00 € | Dose (Posta de 0,900kg a 1,000kg): 37,00 €", "price": "19,00 € / 37,00 €" },
-        { "name": "Polvo à Lagareiro", "desc": "Preparado e servido idealmente para duas pessoas", "price": "41,00 €" }
+        { "name": "Polvo à Lagareiro", "desc": "Preparado e servido idealmente para duas pessoas", "price": "41,00 €" },
+        { "name": "Truta no Forno recheada com Salpicão de Paredes de Coura", "desc": "", "price": "14,00 €" }
       ],
       "pasto": [
-        { "name": "Arroz de Pica no Chão", "desc": "", "price": "14,00 €" },
-        { "name": "Javali Estufado com Castanhas", "desc": "", "price": "15,00 €" },
-        { "name": "Bife à Portuguesa (Vazia)", "desc": "Corte generoso de 0,350kg a 0,400kg", "price": "16,90 €" },
+        { "name": "Cabrito Assado à Moda da Terra", "desc": "Para uma pessoa: 20,00 € | Para duas pessoas: 39,00 €", "price": "20,00 € / 39,00 €" },
         { "name": "Posta Minhota", "desc": "Meia Dose (Posta de 0,400kg a 0,500kg): 16,00 € | Dose (Posta de 0,900kg a 1,000kg): 30,00 €", "price": "16,00 € / 30,00 €" },
-        { "name": "Cabrito Assado à Moda da Terra", "desc": "Para uma pessoa: 20,00 € | Para duas pessoas: 39,00 €", "price": "20,00 € / 39,00 €" }
+        { "name": "Javali Estufado com Castanhas", "desc": "", "price": "15,00 €" },
+        { "name": "Arroz de Pica no Chão", "desc": "", "price": "14,00 €" },
+        { "name": "Bife à Portuguesa (Vazia)", "desc": "Corte generoso de 0,350kg a 0,400kg", "price": "16,90 €" }
       ],
       "horta": [
         { "name": "Risoto de Cogumelos Selvagens", "desc": "", "price": "12,00 €" }
@@ -140,12 +132,12 @@
         { "name": "Hambúrguer no Prato", "desc": "", "price": "7,00 €" }
       ],
       "docaria": [
-        { "name": "Fruta da Época", "desc": "", "price": "3,00 €" },
+        { "name": "Rabanada Conventual", "desc": "", "price": "4,00 €" },
         { "name": "Leite Creme Queimado", "desc": "", "price": "3,50 €" },
         { "name": "Mousse de Chocolate Caseira", "desc": "", "price": "3,50 €" },
-        { "name": "Rabanada Conventual", "desc": "", "price": "4,00 €" },
         { "name": "Torta de Laranja", "desc": "", "price": "4,50 €" },
-        { "name": "Brownie de Chocolate com Gelado", "desc": "", "price": "5,00 €" }
+        { "name": "Brownie de Chocolate com Gelado", "desc": "", "price": "5,00 €" },
+        { "name": "Fruta da Época", "desc": "", "price": "3,00 €" }
       ]
     }
   },

@@ -20,10 +20,10 @@
   },
   "about": {
     "eyebrow": "Our house",
-    "title": "Tradition you can taste",
-    "p1": "For generations, our family has been serving the genuine flavours of the Minho region, with recipes passed down from mother to daughter and the care of someone cooking for people they love. At Restaurante Lino, every plate is a small journey through the village cooking of Portugal — honest, generous and slowly simmered.",
-    "p2": "We work with local producers from Paredes de Coura: Barrosã beef raised on the mountain pastures, vinho verde from the valley, wood-fired bread, and cured meats from the neighbouring houses. Everything we serve is born within a few kilometres of Castanheira.",
-    "p3": "Sitting at Lino's table means stepping into a Portuguese home, hearing conversations around the fireplace and tasting the memory of the Minho without hurry.",
+    "title": "The Rebirth of Tradition in Paredes de Coura",
+    "p1": "Restaurante Lino is back, brought to life by the hands and soul of Chef Gomes. Born in our land, raised among these valleys and with a deep knowledge of the house's secrets, Chef Gomes takes command of the kitchen to bring back the magic, unhurried pace and authenticity of our traditional cuisine.",
+    "p2": "We are not merely reopening a space; we are honouring a legacy. The iconic Barrosã beef posta and tender kid goat return to the grill, proudly raised by local shepherds and producers. Faithful salt cod, prepared with the respect Minho tradition demands, is king of the table once again.",
+    "p3": "Past and present meet in an awakening of flavours you thought were kept only in memory. Come share this new chapter with us.",
     "stats": {
       "years": "Years of tradition",
       "local": "Local ingredients",
@@ -36,24 +36,16 @@
     "subtitle": "A selection of our most-loved plates, prepared at the old rhythm of the Minho.",
     "items": {
       "sarrabulho": {
-        "name": "Arroz de Sarrabulho",
+        "name": "Bacalhau à Zé do Pipo with prawns",
         "desc": "A centuries-old Minho recipe of rice, pork and mountain spices. Served in the iron pot, straight from the fire."
       },
       "bacalhau": {
-        "name": "Bacalhau à Lino",
+        "name": "Arroz de Pica no Chão",
         "desc": "Our take on oven-baked salt cod, with smashed potatoes, confit onions and valley olive oil."
       },
-      "posta": {
-        "name": "Posta Barrosã",
-        "desc": "Thick cut of PDO Barrosã veal, grilled over embers and served with roasted potatoes and turnip greens."
-      },
       "rojoes": {
-        "name": "Rojões à Minhota",
+        "name": "Kid Goat Roasted Country-Style",
         "desc": "Pork marinated in house wine, slowly fried and served with chestnuts and orange."
-      },
-      "leiteCreme": {
-        "name": "Homemade Leite Creme",
-        "desc": "A family dessert with velvet custard, lemon peel and sugar burned at the table."
       }
     }
   },
@@ -66,13 +58,14 @@
     "title": "At Lino's table",
     "address": "Castanheira, 4940 Paredes de Coura, Portugal",
     "phoneLabel": "Phone",
-    "phone": "+351 251 000 000",
+    "phone": "+351 251 037 747",
     "emailLabel": "Email",
-    "email": "reservas@restaurantelino.pt",
+    "email": "restaurante.lino.pcoura@gmail.com",
     "hoursLabel": "Hours",
     "hours": {
-      "weekdays": "Tuesday to Sunday · 12:00 – 15:00 and 19:00 – 22:30",
-      "closed": "Closed on Mondays"
+      "hours1": "Monday to Thursday · 12:00 – 15:00",
+      "hours2": "Friday and Saturday · 12:00 – 15:00 · 19:00 – 22:00",
+      "hours3": "Sunday · 12:00 – 16:00"
     },
     "ctaReserve": "Reserve by phone",
     "mapTitle": "Map of Castanheira, Paredes de Coura"
@@ -100,37 +93,36 @@
     },
     "items": {
       "couvert": [
-        { "name": "Butter", "desc": "", "price": "€0.70" },
-        { "name": "Patés", "desc": "", "price": "€0.80" },
-        { "name": "Small Basket of Regional Bread", "desc": "", "price": "€1.50" },
+        { "name": "Basket of Regional Bread (small / large)", "desc": "", "price": "€1.50 / €2.00" },
         { "name": "Seasoned Olives", "desc": "", "price": "€1.80" },
-        { "name": "Large Basket of Regional Bread", "desc": "", "price": "€2.00" }
+        { "name": "Patés", "desc": "", "price": "€0.80" },
+        { "name": "Butter", "desc": "", "price": "€0.70" }
       ],
       "sopa": [
         { "name": "Soup of the Day", "desc": "", "price": "€3.00" }
       ],
       "entradasFumeiros": [
-        { "name": "Regional Cheese", "desc": "", "price": "€4.50" },
-        { "name": "Smokehouse Alheira on the Grill", "desc": "", "price": "€5.50" },
-        { "name": "Small Plate of Rojões", "desc": "", "price": "€6.00" },
+        { "name": "Gambas à Guilho", "desc": "", "price": "€12.50" },
         { "name": "Plate of Salpicão", "desc": "", "price": "€6.50" },
         { "name": "Fried Cornbread with Chouriço", "desc": "", "price": "€6.50" },
         { "name": "Chouriço in Pomace Brandy", "desc": "", "price": "€6.50" },
-        { "name": "Gambas à Guilho", "desc": "", "price": "€12.50" }
+        { "name": "Small Plate of Rojões", "desc": "", "price": "€6.00" },
+        { "name": "Smokehouse Alheira on the Grill", "desc": "", "price": "€5.50" },
+        { "name": "Regional Cheese", "desc": "", "price": "€4.50" }
       ],
       "mar": [
-        { "name": "Oven-Baked Trout Stuffed with Paredes de Coura Salpicão", "desc": "", "price": "€14.00" },
         { "name": "Bacalhau à Lino", "desc": "Half portion (0.400–0.500 kg cut): €19.00 | Full portion (0.900–1.000 kg cut): €37.00", "price": "€19.00 / €37.00" },
-        { "name": "Bacalhau à Chefe", "desc": "Half portion (0.400–0.500 kg cut): €19.00 | Full portion (0.900–1.000 kg cut): €37.00", "price": "€19.00 / €37.00" },
+        { "name": "Bacalhau à Zé do Pipo \"with prawns\"", "desc": "Half portion (0.400–0.500 kg cut): €19.00 | Full portion (0.900–1.000 kg cut): €37.00", "price": "€19.00 / €37.00" },
         { "name": "Salt Cod with Cornbread", "desc": "Half portion (0.400–0.500 kg cut): €19.00 | Full portion (0.900–1.000 kg cut): €37.00", "price": "€19.00 / €37.00" },
-        { "name": "Octopus à Lagareiro", "desc": "Prepared and ideally served for two", "price": "€41.00" }
+        { "name": "Octopus à Lagareiro", "desc": "Prepared and ideally served for two", "price": "€41.00" },
+        { "name": "Oven-Baked Trout Stuffed with Paredes de Coura Salpicão", "desc": "", "price": "€14.00" }
       ],
       "pasto": [
-        { "name": "Arroz de Pica no Chão", "desc": "", "price": "€14.00" },
-        { "name": "Wild Boar Stew with Chestnuts", "desc": "", "price": "€15.00" },
-        { "name": "Portuguese-Style Sirloin Steak", "desc": "Generous cut of 0.350–0.400 kg", "price": "€16.90" },
+        { "name": "Kid Goat Roasted Country-Style", "desc": "For one person: €20.00 | For two people: €39.00", "price": "€20.00 / €39.00" },
         { "name": "Posta Minhota", "desc": "Half portion (0.400–0.500 kg cut): €16.00 | Full portion (0.900–1.000 kg cut): €30.00", "price": "€16.00 / €30.00" },
-        { "name": "Kid Goat Roasted Country-Style", "desc": "For one person: €20.00 | For two people: €39.00", "price": "€20.00 / €39.00" }
+        { "name": "Wild Boar Stew with Chestnuts", "desc": "", "price": "€15.00" },
+        { "name": "Arroz de Pica no Chão", "desc": "", "price": "€14.00" },
+        { "name": "Portuguese-Style Sirloin Steak", "desc": "Generous cut of 0.350–0.400 kg", "price": "€16.90" }
       ],
       "horta": [
         { "name": "Wild Mushroom Risotto", "desc": "", "price": "€12.00" }
@@ -140,12 +132,12 @@
         { "name": "Hamburger on a Plate", "desc": "", "price": "€7.00" }
       ],
       "docaria": [
-        { "name": "Seasonal Fruit", "desc": "", "price": "€3.00" },
+        { "name": "Convent French Toast", "desc": "", "price": "€4.00" },
         { "name": "Burnt Leite Creme", "desc": "", "price": "€3.50" },
         { "name": "Homemade Chocolate Mousse", "desc": "", "price": "€3.50" },
-        { "name": "Convent French Toast", "desc": "", "price": "€4.00" },
         { "name": "Orange Cake", "desc": "", "price": "€4.50" },
-        { "name": "Chocolate Brownie with Ice Cream", "desc": "", "price": "€5.00" }
+        { "name": "Chocolate Brownie with Ice Cream", "desc": "", "price": "€5.00" },
+        { "name": "Seasonal Fruit", "desc": "", "price": "€3.00" }
       ]
     }
   },

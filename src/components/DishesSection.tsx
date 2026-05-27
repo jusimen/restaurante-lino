@@ -4,16 +4,12 @@ import { Container } from "./Container";
 import { DishCard } from "./DishCard";
 import sarrabulho from "@/assets/dish-sarrabulho.jpg";
 import bacalhau from "@/assets/dish-bacalhau.jpg";
-import posta from "@/assets/dish-posta.jpg";
 import rojoes from "@/assets/dish-rojoes.jpg";
-import leiteCreme from "@/assets/dish-leitecreme.jpg";
 
 const dishKeys = [
   { key: "sarrabulho", image: sarrabulho },
   { key: "bacalhau", image: bacalhau },
-  { key: "posta", image: posta },
   { key: "rojoes", image: rojoes },
-  { key: "leiteCreme", image: leiteCreme },
 ] as const;
 
 export function DishesSection() {

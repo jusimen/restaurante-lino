@@ -26,8 +26,9 @@ export function ContactSection() {
               </a>
             </InfoRow>
             <InfoRow icon={<Clock className="h-5 w-5" />} label={t("contact.hoursLabel")}>
-              <span className="block">{t("contact.hours.weekdays")}</span>
-              <span className="block text-muted-foreground">{t("contact.hours.closed")}</span>
+              <span className="block">{t("contact.hours.hours1")}</span>
+              <span className="block">{t("contact.hours.hours2")}</span>
+              <span className="block">{t("contact.hours.hours3")}</span>
             </InfoRow>
 
             <a
