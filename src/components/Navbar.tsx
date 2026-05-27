@@ -77,7 +77,7 @@ export function Navbar() {
           ))}
           <LanguageSwitcher />
           <a
-            href={menu}
+            href={`tel:${t("contact.phone").replace(/\s/g, "")}`}
             className="inline-flex items-center rounded-full bg-primary px-5 py-2 text-sm font-medium text-primary-foreground hover:bg-[oklch(0.36_0.13_25)] transition-colors"
           >
             {t("nav.reserve")}

@@ -38,7 +38,7 @@ export function HeroSection() {
             {t("hero.ctaMenu")}
           </a>
           <a
-            href="tel:+351251000000"
+            href={`tel:${t("contact.phone").replace(/\s/g, "")}`}
             className="inline-flex items-center justify-center rounded-full border border-white/40 bg-white/5 backdrop-blur-sm px-7 py-3 text-sm font-medium text-white hover:bg-white/15 transition-colors"
           >
             {t("hero.ctaReserve")}
