@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { useLocation } from "@tanstack/react-router";
-import heroImg from "@/assets/hero.jpg";
+import heroImg from "@/assets/hero.png";
 import { getLocaleFromPath, localizedPath } from "@/lib/locale";
 
 export function HeroSection() {

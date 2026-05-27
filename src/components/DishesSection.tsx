@@ -2,14 +2,14 @@ import { useTranslation } from "react-i18next";
 import { SectionTitle } from "./SectionTitle";
 import { Container } from "./Container";
 import { DishCard } from "./DishCard";
-import sarrabulho from "@/assets/dish-sarrabulho.jpg";
-import bacalhau from "@/assets/dish-bacalhau.jpg";
-import rojoes from "@/assets/dish-rojoes.jpg";
+import bacalhauZePipo from "@/assets/dish-bacalhau-ze-pipo.png";
+import arrozPicaChao from "@/assets/dish-arroz-pica-chao.png";
+import cabrito from "@/assets/dish-cabrito.png";
 
 const dishKeys = [
-  { key: "sarrabulho", image: sarrabulho },
-  { key: "bacalhau", image: bacalhau },
-  { key: "rojoes", image: rojoes },
+  { key: "bacalhauZePipo", image: bacalhauZePipo },
+  { key: "arrozPicaChao", image: arrozPicaChao },
+  { key: "cabrito", image: cabrito },
 ] as const;
 
 export function DishesSection() {

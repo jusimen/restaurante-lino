@@ -28,7 +28,7 @@ export function SectionTitle({
           {eyebrow}
         </p>
       )}
-      <h2 className="font-serif text-4xl md:text-5xl text-foreground leading-tight">
+      <h2 className="font-serif text-4xl md:text-5xl text-foreground leading-tight whitespace-pre-line">
         {title}
       </h2>
       {subtitle && (
