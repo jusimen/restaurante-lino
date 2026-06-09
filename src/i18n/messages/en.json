@@ -77,7 +77,7 @@
   "menu": {
     "eyebrow": "Our menu",
     "title": "Restaurante Lino Menu",
-    "subtitle": "Cover, soups, starters, sea and river, pasture and mountain, Minho garden, children's dishes and sweets. Browse below or download the full menu as PDF.",
+    "subtitle": "Cover, soups, starters, house specialties and homemade desserts. Browse below or download the full menu as PDF.",
     "download": "Download menu (PDF)",
     "openPdf": "Open menu in new tab",
     "noPreview": "Your device does not support PDF preview.",
@@ -85,11 +85,8 @@
       "couvert": "Cover",
       "sopa": "Soup",
       "entradasFumeiros": "Starters & Smokehouse",
-      "mar": "From Sea & River",
-      "pasto": "From Pasture & Mountain",
-      "horta": "Minho Garden (Vegetarian / Vegan)",
-      "infantis": "Children's Dishes",
-      "docaria": "Sweets & Fruit"
+      "especialidades": "House Specialties",
+      "sobremesas": "Homemade Desserts"
     },
     "allergens": {
       "title": "Allergen notice (EU Regulation No. 1169/2011)",
@@ -97,51 +94,33 @@
     },
     "items": {
       "couvert": [
-        { "name": "Basket of Regional Bread (small / large)", "desc": "", "price": "€1.50 / €2.00" },
-        { "name": "Seasoned Olives", "desc": "", "price": "€1.80" },
-        { "name": "Patés", "desc": "", "price": "€0.80" },
-        { "name": "Butter", "desc": "", "price": "€0.70" }
+        { "name": "Large Basket of Regional Bread", "desc": "Cornbread and homemade bread from our region", "price": "€2.00" },
+        { "name": "Seasoned Olives", "desc": "Galician olive oil, garlic and aromatic herbs", "price": "€1.80" },
+        { "name": "Small Basket of Regional Bread", "desc": "", "price": "€1.50" },
+        { "name": "Canned Patés", "desc": "Selection of traditional patés", "price": "€0.80" },
+        { "name": "Butter", "desc": "Artisanal individual portion", "price": "€0.70" }
       ],
       "sopa": [
-        { "name": "Soup of the Day", "desc": "", "price": "€3.00" }
+        { "name": "Soup of the Day", "desc": "Created daily with the freshest vegetables from the garden", "price": "€3.00" }
       ],
       "entradasFumeiros": [
-        { "name": "Gambas à Guilho", "desc": "", "price": "€12.50" },
-        { "name": "Plate of Salpicão", "desc": "", "price": "€6.50" },
-        { "name": "Fried Cornbread with Chouriço", "desc": "", "price": "€6.50" },
-        { "name": "Chouriço in Pomace Brandy", "desc": "", "price": "€6.50" },
-        { "name": "Small Plate of Rojões", "desc": "", "price": "€6.00" },
-        { "name": "Smokehouse Alheira on the Grill", "desc": "", "price": "€5.50" },
-        { "name": "Regional Cheese", "desc": "", "price": "€4.50" }
+        { "name": "Chouriço in Pomace Brandy", "desc": "Flambeed at the table in our old-fashioned way", "price": "€6.50" },
+        { "name": "Fried Cornbread with Chouriço", "desc": "Traditional crispy snack", "price": "€6.50" },
+        { "name": "Smokehouse Alheira on the Grill", "desc": "Artisanal sausage patiently grilled", "price": "€5.50" },
+        { "name": "Regional Cheese", "desc": "Selected cured Minho cheese", "price": "€4.50" }
       ],
-      "mar": [
-        { "name": "Bacalhau à Lino", "desc": "Half portion (0.400–0.500 kg cut): €19.00 | Full portion (0.900–1.000 kg cut): €37.00", "price": "€19.00 / €37.00" },
-        { "name": "Bacalhau à Zé do Pipo \"with prawns\"", "desc": "Half portion (0.400–0.500 kg cut): €19.00 | Full portion (0.900–1.000 kg cut): €37.00", "price": "€19.00 / €37.00" },
-        { "name": "Salt Cod with Cornbread", "desc": "Half portion (0.400–0.500 kg cut): €19.00 | Full portion (0.900–1.000 kg cut): €37.00", "price": "€19.00 / €37.00" },
-        { "name": "Octopus à Lagareiro", "desc": "Prepared and ideally served for two", "price": "€41.00" },
-        { "name": "Oven-Baked Trout Stuffed with Paredes de Coura Salpicão", "desc": "", "price": "€14.00" }
+      "especialidades": [
+        { "name": "Octopus à Lagareiro", "desc": "Oven-baked with smashed potatoes (serves 2)", "price": "€42.00" },
+        { "name": "Bacalhau à Lino", "desc": "Half portion: €19.00 | Full portion (generous 1kg–1,100kg cut): €38.00", "price": "€19.00 / €38.00" },
+        { "name": "Posta Minhota", "desc": "Half portion (400g–500g of premium sirloin steak)", "price": "€17.50" },
+        { "name": "Portuguese-Style Sirloin Steak", "desc": "Noble cut pan-fried (350g–400g of sirloin)", "price": "€16.00" },
+        { "name": "Wild Boar Stew with Chestnuts", "desc": "Game dish slowly simmered with local chestnuts", "price": "€14.50" }
       ],
-      "pasto": [
-        { "name": "Kid Goat Roasted Country-Style", "desc": "For one person: €20.00 | For two people: €39.00", "price": "€20.00 / €39.00" },
-        { "name": "Posta Minhota", "desc": "Half portion (0.400–0.500 kg cut): €16.00 | Full portion (0.900–1.000 kg cut): €30.00", "price": "€16.00 / €30.00" },
-        { "name": "Wild Boar Stew with Chestnuts", "desc": "", "price": "€15.00" },
-        { "name": "Arroz de Pica no Chão", "desc": "", "price": "€14.00" },
-        { "name": "Portuguese-Style Sirloin Steak", "desc": "Generous cut of 0.350–0.400 kg", "price": "€16.90" }
-      ],
-      "horta": [
-        { "name": "Wild Mushroom Risotto", "desc": "", "price": "€12.00" }
-      ],
-      "infantis": [
-        { "name": "Spaghetti Bolognese", "desc": "", "price": "€7.00" },
-        { "name": "Hamburger on a Plate", "desc": "", "price": "€7.00" }
-      ],
-      "docaria": [
-        { "name": "Convent French Toast", "desc": "", "price": "€4.00" },
-        { "name": "Burnt Leite Creme", "desc": "", "price": "€3.50" },
-        { "name": "Homemade Chocolate Mousse", "desc": "", "price": "€3.50" },
-        { "name": "Orange Cake", "desc": "", "price": "€4.50" },
-        { "name": "Chocolate Brownie with Ice Cream", "desc": "", "price": "€5.00" },
-        { "name": "Seasonal Fruit", "desc": "", "price": "€3.00" }
+      "sobremesas": [
+        { "name": "Convent French Toast with Sweet Preserve", "desc": "Traditional convent recipe, sumptuous", "price": "€4.50" },
+        { "name": "Oven-Baked Pineapple", "desc": "", "price": "€4.50" },
+        { "name": "Burnt Leite Creme", "desc": "Burned at the moment with the traditional hot iron", "price": "€4.00" },
+        { "name": "Chocolate Mousse", "desc": "The always creamy homemade recipe", "price": "€4.00" }
       ]
     }
   },

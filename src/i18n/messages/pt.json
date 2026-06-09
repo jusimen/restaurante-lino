@@ -77,7 +77,7 @@
   "menu": {
     "eyebrow": "A nossa ementa",
     "title": "Ementa do Restaurante Lino",
-    "subtitle": "Couvert, sopas, entradas, mar e rio, pasto e monte, horta minhota, pratos infantis e doçaria. Consulte abaixo ou descarregue a ementa completa em PDF.",
+    "subtitle": "Couvert, sopas, entradas, especialidades da casa e sobremesas caseiras. Consulte abaixo ou descarregue a ementa completa em PDF.",
     "download": "Descarregar ementa (PDF)",
     "openPdf": "Abrir ementa em nova janela",
     "noPreview": "O seu dispositivo não suporta a pré-visualização do PDF.",
@@ -85,11 +85,8 @@
       "couvert": "Couvert",
       "sopa": "Sopa",
       "entradasFumeiros": "Entradas & Fumeiros",
-      "mar": "Do Mar e Rio",
-      "pasto": "Do Pasto e Monte",
-      "horta": "Horta Minhota (Vegetariano / Vegan)",
-      "infantis": "Pratos Infantis",
-      "docaria": "Doçaria & Fruta"
+      "especialidades": "Especialidades da Casa",
+      "sobremesas": "Sobremesas Caseiras"
     },
     "allergens": {
       "title": "Aviso de alergénios (Regulamento UE n.º 1169/2011)",
@@ -97,51 +94,33 @@
     },
     "items": {
       "couvert": [
-        { "name": "Cesto de Pão Regional (pequeno / grande)", "desc": "", "price": "1,50 € / 2,00 €" },
-        { "name": "Azeitonas Temperadas", "desc": "", "price": "1,80 €" },
-        { "name": "Patés", "desc": "", "price": "0,80 €" },
-        { "name": "Manteiga", "desc": "", "price": "0,70 €" }
+        { "name": "Cesto Grande de Pão Regional", "desc": "Broa de milho e pão caseiro da nossa região", "price": "2,00 €" },
+        { "name": "Azeitonas Temperadas", "desc": "Azeite galego, alho e ervas aromáticas", "price": "1,80 €" },
+        { "name": "Cesto Pequeno de Pão Regional", "desc": "", "price": "1,50 €" },
+        { "name": "Patés de Conserva", "desc": "Seleção de patés tradicionais", "price": "0,80 €" },
+        { "name": "Manteiga", "desc": "Porção individual artesanal", "price": "0,70 €" }
       ],
       "sopa": [
-        { "name": "Sopa do Dia", "desc": "", "price": "3,00 €" }
+        { "name": "Sopa do Dia", "desc": "Concebida diariamente com os legumes mais frescos da horta", "price": "3,00 €" }
       ],
       "entradasFumeiros": [
-        { "name": "Gambas à Guilho", "desc": "", "price": "12,50 €" },
-        { "name": "Prato de Salpicão", "desc": "", "price": "6,50 €" },
-        { "name": "Broa Frita com Chouriça", "desc": "", "price": "6,50 €" },
-        { "name": "Chouriça no Bagaço", "desc": "", "price": "6,50 €" },
-        { "name": "Pratinho de Rojões", "desc": "", "price": "6,00 €" },
-        { "name": "Alheira do Fumeiro na Brasa", "desc": "", "price": "5,50 €" },
-        { "name": "Queijo Regional", "desc": "", "price": "4,50 €" }
+        { "name": "Chouriça no Bagaço", "desc": "Flambada na mesa à nossa moda antiga", "price": "6,50 €" },
+        { "name": "Broa Frita com Chouriço", "desc": "Petisco tradicional e crocante", "price": "6,50 €" },
+        { "name": "Alheira do Nosso Fumeiro na Brasa", "desc": "Enchido artesanal grelhado com paciência", "price": "5,50 €" },
+        { "name": "Queijo Regional", "desc": "Queijo curado minhoto selecionado", "price": "4,50 €" }
       ],
-      "mar": [
-        { "name": "Bacalhau à Lino", "desc": "Meia Dose (Posta de 0,400kg a 0,500kg): 19,00 € | Dose (Posta de 0,900kg a 1,000kg): 37,00 €", "price": "19,00 € / 37,00 €" },
-        { "name": "Bacalhau à Zé do Pipo \"com gambas\"", "desc": "Meia Dose (Posta de 0,400kg a 0,500kg): 19,00 € | Dose (Posta de 0,900kg a 1,000kg): 37,00 €", "price": "19,00 € / 37,00 €" },
-        { "name": "Bacalhau com Broa", "desc": "Meia Dose (Posta de 0,400kg a 0,500kg): 19,00 € | Dose (Posta de 0,900kg a 1,000kg): 37,00 €", "price": "19,00 € / 37,00 €" },
-        { "name": "Polvo à Lagareiro", "desc": "Preparado e servido idealmente para duas pessoas", "price": "41,00 €" },
-        { "name": "Truta no Forno recheada com Salpicão de Paredes de Coura", "desc": "", "price": "14,00 €" }
+      "especialidades": [
+        { "name": "Polvo à Lagareiro", "desc": "Preparado no forno com batatas a murro (Dose para 2 pessoas)", "price": "42,00 €" },
+        { "name": "Bacalhau à Lino", "desc": "Meia Dose: 19,00 € | Dose Inteira (Posta generosa de 1kg a 1,100kg): 38,00 €", "price": "19,00 € / 38,00 €" },
+        { "name": "Posta Minhota", "desc": "Meia Dose (400g a 500g de carne de Vazia premium)", "price": "17,50 €" },
+        { "name": "Bife à Portuguesa", "desc": "Corte nobre confecionado na frigideira (350g a 400g de Vazia)", "price": "16,00 €" },
+        { "name": "Javali Estufado com Castanhas", "desc": "Prato de caça apurado lentamente com castanhas locais", "price": "14,50 €" }
       ],
-      "pasto": [
-        { "name": "Cabrito Assado à Moda da Terra", "desc": "Para uma pessoa: 20,00 € | Para duas pessoas: 39,00 €", "price": "20,00 € / 39,00 €" },
-        { "name": "Posta Minhota", "desc": "Meia Dose (Posta de 0,400kg a 0,500kg): 16,00 € | Dose (Posta de 0,900kg a 1,000kg): 30,00 €", "price": "16,00 € / 30,00 €" },
-        { "name": "Javali Estufado com Castanhas", "desc": "", "price": "15,00 €" },
-        { "name": "Arroz de Pica no Chão", "desc": "", "price": "14,00 €" },
-        { "name": "Bife à Portuguesa (Vazia)", "desc": "Corte generoso de 0,350kg a 0,400kg", "price": "16,90 €" }
-      ],
-      "horta": [
-        { "name": "Risoto de Cogumelos Selvagens", "desc": "", "price": "12,00 €" }
-      ],
-      "infantis": [
-        { "name": "Esparguete à Bolonhesa", "desc": "", "price": "7,00 €" },
-        { "name": "Hambúrguer no Prato", "desc": "", "price": "7,00 €" }
-      ],
-      "docaria": [
-        { "name": "Rabanada Conventual", "desc": "", "price": "4,00 €" },
-        { "name": "Leite Creme Queimado", "desc": "", "price": "3,50 €" },
-        { "name": "Mousse de Chocolate Caseira", "desc": "", "price": "3,50 €" },
-        { "name": "Torta de Laranja", "desc": "", "price": "4,50 €" },
-        { "name": "Brownie de Chocolate com Gelado", "desc": "", "price": "5,00 €" },
-        { "name": "Fruta da Época", "desc": "", "price": "3,00 €" }
+      "sobremesas": [
+        { "name": "Rabanada com Doce", "desc": "Receita conventual tradicional e sumptuosa", "price": "4,50 €" },
+        { "name": "Ananás no Forno", "desc": "", "price": "4,50 €" },
+        { "name": "Leite Creme Queimado", "desc": "Queimado no momento com o tradicional ferro quente", "price": "4,00 €" },
+        { "name": "Mousse de Chocolate", "desc": "A receita artesanal e cremosa de sempre", "price": "4,00 €" }
       ]
     }
   },

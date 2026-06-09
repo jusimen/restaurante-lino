@@ -7,11 +7,8 @@ const categories = [
   "couvert",
   "sopa",
   "entradasFumeiros",
-  "mar",
-  "pasto",
-  "horta",
-  "infantis",
-  "docaria",
+  "especialidades",
+  "sobremesas",
 ] as const;
 
 interface MenuItem {
