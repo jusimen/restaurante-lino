@@ -77,52 +77,80 @@
   "menu": {
     "eyebrow": "Our menu",
     "title": "Restaurante Lino Menu",
-    "subtitle": "Cover, soups, starters, house specialties and homemade desserts. Browse below or download the full menu as PDF.",
-    "download": "Download menu (PDF)",
-    "openPdf": "Open menu in new tab",
-    "noPreview": "Your device does not support PDF preview.",
-    "categories": {
-      "couvert": "Cover",
-      "sopa": "Soup",
-      "entradasFumeiros": "Starters & Smokehouse",
-      "especialidades": "House Specialties",
-      "sobremesas": "Homemade Desserts"
-    },
+    "subtitle": "Starters, house specialties and homemade desserts.",
     "allergens": {
       "title": "Allergen notice (EU Regulation No. 1169/2011)",
       "text": "If you have any food allergy or intolerance, please inform our team before placing your order. Our dishes may contain or come into contact with traces of: Gluten (bread, cornbread, alheira, brownie), Crustaceans (prawns), Eggs (desserts, breaded items), Fish (salt cod, trout), Dairy (butter, cheese, risotto, ice cream), Tree Nuts (brownie, risotto), Celery, Mustard, Sesame Seeds, Sulphur Dioxide/Sulphites (wine and vinegar in seasonings)."
     },
-    "items": {
-      "couvert": [
-        { "name": "Large Basket of Regional Bread", "desc": "Cornbread and homemade bread from our region", "price": "€2.00" },
-        { "name": "Seasoned Olives", "desc": "Galician olive oil, garlic and aromatic herbs", "price": "€1.80" },
-        { "name": "Small Basket of Regional Bread", "desc": "", "price": "€1.50" },
-        { "name": "Canned Patés", "desc": "Selection of traditional patés", "price": "€0.80" },
-        { "name": "Butter", "desc": "Artisanal individual portion", "price": "€0.70" }
-      ],
-      "sopa": [
-        { "name": "Soup of the Day", "desc": "Created daily with the freshest vegetables from the garden", "price": "€3.00" }
-      ],
-      "entradasFumeiros": [
-        { "name": "Chouriço in Pomace Brandy", "desc": "Flambeed at the table in our old-fashioned way", "price": "€6.50" },
-        { "name": "Fried Cornbread with Chouriço", "desc": "Traditional crispy snack", "price": "€6.50" },
-        { "name": "Smokehouse Alheira on the Grill", "desc": "Artisanal sausage patiently grilled", "price": "€5.50" },
-        { "name": "Regional Cheese", "desc": "Selected cured Minho cheese", "price": "€4.50" }
-      ],
-      "especialidades": [
-        { "name": "Octopus à Lagareiro", "desc": "Oven-baked with smashed potatoes (serves 2)", "price": "€42.00" },
-        { "name": "Bacalhau à Lino", "desc": "Half portion: €19.00 | Full portion (generous 1kg–1,100kg cut): €38.00", "price": "€19.00 / €38.00" },
-        { "name": "Posta Minhota", "desc": "Half portion (400g–500g of premium sirloin steak)", "price": "€17.50" },
-        { "name": "Portuguese-Style Sirloin Steak", "desc": "Noble cut pan-fried (350g–400g of sirloin)", "price": "€16.00" },
-        { "name": "Wild Boar Stew with Chestnuts", "desc": "Game dish slowly simmered with local chestnuts", "price": "€14.50" }
-      ],
-      "sobremesas": [
-        { "name": "Convent French Toast with Sweet Preserve", "desc": "Traditional convent recipe, sumptuous", "price": "€4.50" },
-        { "name": "Oven-Baked Pineapple", "desc": "", "price": "€4.50" },
-        { "name": "Burnt Leite Creme", "desc": "Burned at the moment with the traditional hot iron", "price": "€4.00" },
-        { "name": "Chocolate Mousse", "desc": "The always creamy homemade recipe", "price": "€4.00" }
-      ]
-    }
+    "sections": [
+      {
+        "title": "Starters",
+        "subsections": [
+          {
+            "title": "From Our Smokehouse (Paredes de Coura)",
+            "items": [
+              { "name": "Our Smokehouse Salpicão", "desc": "Traditional salpicão, thinly sliced." },
+              { "name": "Meat Chouriço Flambéed in Pomace Brandy", "desc": "Flambéed at the table in our old-fashioned way." },
+              { "name": "Our Smokehouse Ceboleira", "desc": "Traditional onion chouriço, grilled to perfection." },
+              { "name": "Our Smokehouse Alheira on the Grill", "desc": "Artisanal sausage patiently grilled." }
+            ]
+          },
+          {
+            "title": "Other Starters & Soups",
+            "items": [
+              { "name": "Soup of the Day", "desc": "Created daily with the freshest vegetables from the garden." },
+              { "name": "Fried Cornbread with Chouriça", "desc": "Traditional crispy snack." },
+              { "name": "Breaded Brie with Compote", "desc": "Crispy brie with artisanal sweet preserve." },
+              { "name": "Regional Cheese", "desc": "Selected cured Minho cheese." }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Specialties",
+        "subsections": [
+          {
+            "title": "Fixed Menu",
+            "items": [
+              { "name": "Octopus à Lagareiro", "desc": "Oven-baked with smashed potatoes (serves 2)." },
+              { "name": "Bacalhau à Lino", "desc": "Selected premium cut." },
+              { "name": "Premium Sirloin Steak", "desc": "Selected premium sirloin." },
+              { "name": "Wild Boar with Chestnuts", "desc": "Traditional game dish slowly simmered with chestnuts." }
+            ]
+          },
+          {
+            "title": "House Specialties (Rotating Dishes)",
+            "items": [
+              { "name": "Stewed Ox Tongue" },
+              { "name": "Oxtail, Chef's Style" },
+              { "name": "Veal à tio Zé" },
+              { "name": "Salt Cod with Cornbread", "desc": "Noble salt cod cut with aromatic cornbread crust, oven-baked." },
+              { "name": "Portuguese-Style Sirloin Steak", "desc": "Noble cut pan-fried (350g–400g of premium sirloin)." },
+              { "name": "Pepper Steak", "desc": "Noble cut pan-fried with artisanal three-pepper sauce." }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Homemade Desserts",
+        "items": [
+          { "name": "House Rabanada", "desc": "Traditional convent recipe, sumptuous." },
+          { "name": "Oven-Baked Pineapple", "desc": "With Port wine syrup and a scoop of vanilla ice cream." },
+          { "name": "Burnt Leite Creme", "desc": "Burned at the moment with the traditional hot iron." },
+          { "name": "Chocolate Mousse", "desc": "The always creamy homemade recipe." }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "label": "Note",
+        "text": "These dishes rotate throughout the week and on weekends."
+      },
+      {
+        "label": "Vegetarian/Vegan Note",
+        "text": "Vegan or vegetarian dishes are prepared on request by the chef."
+      }
+    ]
   },
   "footer": {
     "rights": "All rights reserved.",

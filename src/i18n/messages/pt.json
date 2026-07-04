@@ -77,52 +77,80 @@
   "menu": {
     "eyebrow": "A nossa ementa",
     "title": "Ementa do Restaurante Lino",
-    "subtitle": "Couvert, sopas, entradas, especialidades da casa e sobremesas caseiras. Consulte abaixo ou descarregue a ementa completa em PDF.",
-    "download": "Descarregar ementa (PDF)",
-    "openPdf": "Abrir ementa em nova janela",
-    "noPreview": "O seu dispositivo não suporta a pré-visualização do PDF.",
-    "categories": {
-      "couvert": "Couvert",
-      "sopa": "Sopa",
-      "entradasFumeiros": "Entradas & Fumeiros",
-      "especialidades": "Especialidades da Casa",
-      "sobremesas": "Sobremesas Caseiras"
-    },
+    "subtitle": "Entradas, especialidades da casa e sobremesas caseiras.",
     "allergens": {
       "title": "Aviso de alergénios (Regulamento UE n.º 1169/2011)",
       "text": "Se sofrer de alguma alergia ou intolerância alimentar, por favor informe a nossa equipa antes de efetuar o seu pedido. Os nossos pratos podem conter ou entrar em contacto com vestígios de: Glúten (pão, broa, alheira, brownie), Crustáceos (gambas), Ovos (sobremesas, panados), Peixe (bacalhau, truta), Laticínios (manteiga, queijo, risoto, gelado), Frutos de Casca Rija (brownie, risoto), Aipo, Mostarda, Sementes de Sésamo, Dióxido de Enxofre/Sulfitos (vinho e vinagre dos temperos)."
     },
-    "items": {
-      "couvert": [
-        { "name": "Cesto Grande de Pão Regional", "desc": "Broa de milho e pão caseiro da nossa região", "price": "2,00 €" },
-        { "name": "Azeitonas Temperadas", "desc": "Azeite galego, alho e ervas aromáticas", "price": "1,80 €" },
-        { "name": "Cesto Pequeno de Pão Regional", "desc": "", "price": "1,50 €" },
-        { "name": "Patés de Conserva", "desc": "Seleção de patés tradicionais", "price": "0,80 €" },
-        { "name": "Manteiga", "desc": "Porção individual artesanal", "price": "0,70 €" }
-      ],
-      "sopa": [
-        { "name": "Sopa do Dia", "desc": "Concebida diariamente com os legumes mais frescos da horta", "price": "3,00 €" }
-      ],
-      "entradasFumeiros": [
-        { "name": "Chouriça no Bagaço", "desc": "Flambada na mesa à nossa moda antiga", "price": "6,50 €" },
-        { "name": "Broa Frita com Chouriço", "desc": "Petisco tradicional e crocante", "price": "6,50 €" },
-        { "name": "Alheira do Nosso Fumeiro na Brasa", "desc": "Enchido artesanal grelhado com paciência", "price": "5,50 €" },
-        { "name": "Queijo Regional", "desc": "Queijo curado minhoto selecionado", "price": "4,50 €" }
-      ],
-      "especialidades": [
-        { "name": "Polvo à Lagareiro", "desc": "Preparado no forno com batatas a murro (Dose para 2 pessoas)", "price": "42,00 €" },
-        { "name": "Bacalhau à Lino", "desc": "Meia Dose: 19,00 € | Dose Inteira (Posta generosa de 1kg a 1,100kg): 38,00 €", "price": "19,00 € / 38,00 €" },
-        { "name": "Posta Minhota", "desc": "Meia Dose (400g a 500g de carne de Vazia premium)", "price": "17,50 €" },
-        { "name": "Bife à Portuguesa", "desc": "Corte nobre confecionado na frigideira (350g a 400g de Vazia)", "price": "16,00 €" },
-        { "name": "Javali Estufado com Castanhas", "desc": "Prato de caça apurado lentamente com castanhas locais", "price": "14,50 €" }
-      ],
-      "sobremesas": [
-        { "name": "Rabanada com Doce", "desc": "Receita conventual tradicional e sumptuosa", "price": "4,50 €" },
-        { "name": "Ananás no Forno", "desc": "", "price": "4,50 €" },
-        { "name": "Leite Creme Queimado", "desc": "Queimado no momento com o tradicional ferro quente", "price": "4,00 €" },
-        { "name": "Mousse de Chocolate", "desc": "A receita artesanal e cremosa de sempre", "price": "4,00 €" }
-      ]
-    }
+    "sections": [
+      {
+        "title": "Entradas",
+        "subsections": [
+          {
+            "title": "Do Nosso Fumeiro (Paredes de Coura)",
+            "items": [
+              { "name": "Salpicão do Nosso Fumeiro", "desc": "Salpicão tradicional fatiado fino." },
+              { "name": "Chouriça de Carne Assada no Bagaço", "desc": "Flambada na mesa à nossa moda antiga." },
+              { "name": "Ceboleira Produto Nosso Fumeiro", "desc": "Chouriça ceboleira tradicional assada no ponto." },
+              { "name": "Alheira do Nosso Fumeiro na Brasa", "desc": "Enchido artesanal grelhado com paciência." }
+            ]
+          },
+          {
+            "title": "Outras Entradas e Sopas",
+            "items": [
+              { "name": "Sopa do Dia", "desc": "Concebida diariamente com os legumes mais frescos da horta." },
+              { "name": "Broa Frita com Chouriça", "desc": "Petisco tradicional e crocante." },
+              { "name": "Queijo Brie Panado com Compota", "desc": "Queijo brie crocante com doce artesanal." },
+              { "name": "Queijo Regional", "desc": "Queijo curado minhoto selecionado." }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Especialidades",
+        "subsections": [
+          {
+            "title": "Carta Fixa",
+            "items": [
+              { "name": "Polvo à Lagareiro", "desc": "Preparado no forno com batatas a murro (Dose para 2 pessoas)." },
+              { "name": "Bacalhau à Lino", "desc": "Posta alta selecionada." },
+              { "name": "Posta Vazia Premium", "desc": "Carne de Vazia premium selecionada." },
+              { "name": "Javali com Castanhas", "desc": "Prato de caça tradicional apurado lentamente com castanhas." }
+            ]
+          },
+          {
+            "title": "Especialidades da Casa (Pratos Rotativos)",
+            "items": [
+              { "name": "Língua de Vaca estufada" },
+              { "name": "Rabo de boi à moda do Chefe" },
+              { "name": "Vitela à tio Zé" },
+              { "name": "Bacalhau com Broa", "desc": "Posta de bacalhau nobre com crosta de broa aromatizada no forno." },
+              { "name": "Bife à Portuguesa", "desc": "Corte nobre confecionado na frigideira (350g a 400g de vazia premium)." },
+              { "name": "Bife à Poivre", "desc": "Corte nobre na frigideira com molho artesanal de três pimentas." }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Sobremesas Caseiras",
+        "items": [
+          { "name": "Rabanada da Casa", "desc": "Receita conventual tradicional e sumptuosa." },
+          { "name": "Ananás no Forno", "desc": "Com calda de Vinho do Porto e bola de gelado de baunilha." },
+          { "name": "Leite Creme Queimado", "desc": "Queimado no momento com o tradicional ferro quente." },
+          { "name": "Mousse de Chocolate", "desc": "A receita artesanal e cremosa de sempre." }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "label": "Nota",
+        "text": "Estes pratos são alternados durante a semana e ao fim de semana."
+      },
+      {
+        "label": "Nota Vegetarianos/Vegan",
+        "text": "Pratos vegan ou vegetarianos são feitos na altura por criação do chefe."
+      }
+    ]
   },
   "footer": {
     "rights": "Todos os direitos reservados.",
