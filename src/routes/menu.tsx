@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { MenuPageContent } from "@/components/MenuPageContent";
+import menuImg from "@/assets/menu-fim-de-semana-lino.jpeg";
 
 export const Route = createFileRoute("/menu")({
   head: () => ({
@@ -34,7 +34,8 @@ function MenuPage() {
     <>
       <Navbar />
       <main className="pt-24">
-        <MenuPageContent />
+        {/* <MenuPageContent /> */}
+        <img src={menuImg} alt="Menu" className="w-full h-full object-contain mx-auto" />
       </main>
       <Footer />
     </>
