@@ -1,9 +1,14 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { createServerFn } from "@tanstack/react-start";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { MenuPageContent } from "@/components/MenuPageContent";
+import { getMenuPayload } from "@/lib/menu-cms";
+
+const loadMenu = createServerFn().handler(() => getMenuPayload("en"));
 
 export const Route = createFileRoute("/en/menu")({
+  loader: () => loadMenu(),
   head: () => ({
     meta: [
       { title: "Menu · Restaurante Lino" },
@@ -13,7 +18,10 @@ export const Route = createFileRoute("/en/menu")({
           "Browse the Restaurante Lino menu: starters, meats, fish, salt cod, homemade desserts and Minho regional wines.",
       },
       { property: "og:title", content: "Menu · Restaurante Lino" },
-      { property: "og:description", content: "Traditional Minho dishes, vinho verde and family desserts." },
+      {
+        property: "og:description",
+        content: "Traditional Minho dishes, vinho verde and family desserts.",
+      },
       { property: "og:url", content: "/en/menu" },
     ],
     links: [
@@ -26,11 +34,12 @@ export const Route = createFileRoute("/en/menu")({
 });
 
 function MenuPageEn() {
+  const payload = Route.useLoaderData();
   return (
     <>
       <Navbar />
       <main className="pt-24">
-        <MenuPageContent />
+        <MenuPageContent payload={payload} />
       </main>
       <Footer />
     </>

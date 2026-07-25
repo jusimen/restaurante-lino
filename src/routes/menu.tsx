@@ -1,9 +1,14 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { createServerFn } from "@tanstack/react-start";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import menuImg from "@/assets/menu-fim-de-semana-lino.jpeg";
+import { MenuPageContent } from "@/components/MenuPageContent";
+import { getMenuPayload } from "@/lib/menu-cms";
+
+const loadMenu = createServerFn().handler(() => getMenuPayload("pt"));
 
 export const Route = createFileRoute("/menu")({
+  loader: () => loadMenu(),
   head: () => ({
     meta: [
       { title: "Ementa · Restaurante Lino" },
@@ -30,12 +35,12 @@ export const Route = createFileRoute("/menu")({
 });
 
 function MenuPage() {
+  const payload = Route.useLoaderData();
   return (
     <>
       <Navbar />
       <main className="pt-24">
-        {/* <MenuPageContent /> */}
-        <img src={menuImg} alt="Menu" className="w-full h-full object-contain mx-auto" />
+        <MenuPageContent payload={payload} />
       </main>
       <Footer />
     </>

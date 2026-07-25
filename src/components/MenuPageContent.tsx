@@ -1,32 +1,27 @@
 import { useTranslation } from "react-i18next";
 import { SectionTitle } from "./SectionTitle";
 import { Container } from "./Container";
+import type { MenuItem, MenuPayload } from "@/lib/menu-types";
 
-interface MenuItem {
-  name: string;
-  desc?: string;
-}
-
-interface MenuSubsection {
-  title?: string;
-  items: MenuItem[];
-}
-
-interface MenuSection {
-  title: string;
-  subsections?: MenuSubsection[];
-  items?: MenuItem[];
-}
-
-interface MenuNote {
-  label: string;
-  text: string;
-}
-
-export function MenuPageContent() {
+export function MenuPageContent({ payload }: { payload: MenuPayload }) {
   const { t } = useTranslation();
-  const sections = t("menu.sections", { returnObjects: true }) as MenuSection[];
-  const notes = t("menu.notes", { returnObjects: true }) as MenuNote[];
+
+  // Image override: if an image is set, show it instead of structured data.
+  if (payload.imageUrl) {
+    return (
+      <section className="bg-background py-5 md:py-12">
+        <Container className="max-w-4xl">
+          <img
+            src={payload.imageUrl}
+            alt={t("menu.title")}
+            className="w-full h-auto object-contain mx-auto rounded-lg"
+          />
+        </Container>
+      </section>
+    );
+  }
+
+  const { sections, notes } = payload.data;
 
   return (
     <>
@@ -99,9 +94,16 @@ function MenuItemList({ items }: { items: MenuItem[] }) {
     <ul className="space-y-7">
       {items.map((item, i) => (
         <li key={i} className="border-l-2 border-primary/20 pl-4 md:pl-5">
-          <p className="font-sans text-lg md:text-xl font-medium text-foreground leading-snug">
-            {item.name}
-          </p>
+          <div className="flex items-baseline justify-between gap-4">
+            <p className="font-sans text-lg md:text-xl font-medium text-foreground leading-snug">
+              {item.name}
+            </p>
+            {item.price ? (
+              <span className="font-sans text-lg md:text-xl font-medium text-primary whitespace-nowrap">
+                {item.price}
+              </span>
+            ) : null}
+          </div>
           {item.desc ? (
             <p className="font-sans text-base text-foreground/75 mt-1.5 leading-relaxed max-w-2xl">
               {item.desc}

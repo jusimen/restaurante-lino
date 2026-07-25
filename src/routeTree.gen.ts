@@ -15,6 +15,10 @@ import { Route as EnRouteImport } from './routes/en'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as EnIndexRouteImport } from './routes/en.index'
 import { Route as EnMenuRouteImport } from './routes/en.menu'
+import { Route as ApiMenuRouteImport } from './routes/api.menu'
+import { Route as AdminMenuRouteImport } from './routes/admin.menu'
+import { Route as ApiMenuLoginRouteImport } from './routes/api.menu.login'
+import { Route as ApiMenuImageRouteImport } from './routes/api.menu.image'
 
 const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
   id: '/sitemap.xml',
@@ -46,21 +50,49 @@ const EnMenuRoute = EnMenuRouteImport.update({
   path: '/menu',
   getParentRoute: () => EnRoute,
 } as any)
+const ApiMenuRoute = ApiMenuRouteImport.update({
+  id: '/api/menu',
+  path: '/api/menu',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AdminMenuRoute = AdminMenuRouteImport.update({
+  id: '/admin/menu',
+  path: '/admin/menu',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ApiMenuLoginRoute = ApiMenuLoginRouteImport.update({
+  id: '/login',
+  path: '/login',
+  getParentRoute: () => ApiMenuRoute,
+} as any)
+const ApiMenuImageRoute = ApiMenuImageRouteImport.update({
+  id: '/image',
+  path: '/image',
+  getParentRoute: () => ApiMenuRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/en': typeof EnRouteWithChildren
   '/menu': typeof MenuRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/admin/menu': typeof AdminMenuRoute
+  '/api/menu': typeof ApiMenuRouteWithChildren
   '/en/menu': typeof EnMenuRoute
   '/en/': typeof EnIndexRoute
+  '/api/menu/image': typeof ApiMenuImageRoute
+  '/api/menu/login': typeof ApiMenuLoginRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/menu': typeof MenuRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/admin/menu': typeof AdminMenuRoute
+  '/api/menu': typeof ApiMenuRouteWithChildren
   '/en/menu': typeof EnMenuRoute
   '/en': typeof EnIndexRoute
+  '/api/menu/image': typeof ApiMenuImageRoute
+  '/api/menu/login': typeof ApiMenuLoginRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -68,15 +100,49 @@ export interface FileRoutesById {
   '/en': typeof EnRouteWithChildren
   '/menu': typeof MenuRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/admin/menu': typeof AdminMenuRoute
+  '/api/menu': typeof ApiMenuRouteWithChildren
   '/en/menu': typeof EnMenuRoute
   '/en/': typeof EnIndexRoute
+  '/api/menu/image': typeof ApiMenuImageRoute
+  '/api/menu/login': typeof ApiMenuLoginRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/en' | '/menu' | '/sitemap.xml' | '/en/menu' | '/en/'
+  fullPaths:
+    | '/'
+    | '/en'
+    | '/menu'
+    | '/sitemap.xml'
+    | '/admin/menu'
+    | '/api/menu'
+    | '/en/menu'
+    | '/en/'
+    | '/api/menu/image'
+    | '/api/menu/login'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/menu' | '/sitemap.xml' | '/en/menu' | '/en'
-  id: '__root__' | '/' | '/en' | '/menu' | '/sitemap.xml' | '/en/menu' | '/en/'
+  to:
+    | '/'
+    | '/menu'
+    | '/sitemap.xml'
+    | '/admin/menu'
+    | '/api/menu'
+    | '/en/menu'
+    | '/en'
+    | '/api/menu/image'
+    | '/api/menu/login'
+  id:
+    | '__root__'
+    | '/'
+    | '/en'
+    | '/menu'
+    | '/sitemap.xml'
+    | '/admin/menu'
+    | '/api/menu'
+    | '/en/menu'
+    | '/en/'
+    | '/api/menu/image'
+    | '/api/menu/login'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -84,6 +150,8 @@ export interface RootRouteChildren {
   EnRoute: typeof EnRouteWithChildren
   MenuRoute: typeof MenuRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
+  AdminMenuRoute: typeof AdminMenuRoute
+  ApiMenuRoute: typeof ApiMenuRouteWithChildren
 }
 
 declare module '@tanstack/react-router' {
@@ -130,6 +198,34 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof EnMenuRouteImport
       parentRoute: typeof EnRoute
     }
+    '/api/menu': {
+      id: '/api/menu'
+      path: '/api/menu'
+      fullPath: '/api/menu'
+      preLoaderRoute: typeof ApiMenuRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/admin/menu': {
+      id: '/admin/menu'
+      path: '/admin/menu'
+      fullPath: '/admin/menu'
+      preLoaderRoute: typeof AdminMenuRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/menu/login': {
+      id: '/api/menu/login'
+      path: '/login'
+      fullPath: '/api/menu/login'
+      preLoaderRoute: typeof ApiMenuLoginRouteImport
+      parentRoute: typeof ApiMenuRoute
+    }
+    '/api/menu/image': {
+      id: '/api/menu/image'
+      path: '/image'
+      fullPath: '/api/menu/image'
+      preLoaderRoute: typeof ApiMenuImageRouteImport
+      parentRoute: typeof ApiMenuRoute
+    }
   }
 }
 
@@ -145,11 +241,26 @@ const EnRouteChildren: EnRouteChildren = {
 
 const EnRouteWithChildren = EnRoute._addFileChildren(EnRouteChildren)
 
+interface ApiMenuRouteChildren {
+  ApiMenuImageRoute: typeof ApiMenuImageRoute
+  ApiMenuLoginRoute: typeof ApiMenuLoginRoute
+}
+
+const ApiMenuRouteChildren: ApiMenuRouteChildren = {
+  ApiMenuImageRoute: ApiMenuImageRoute,
+  ApiMenuLoginRoute: ApiMenuLoginRoute,
+}
+
+const ApiMenuRouteWithChildren =
+  ApiMenuRoute._addFileChildren(ApiMenuRouteChildren)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   EnRoute: EnRouteWithChildren,
   MenuRoute: MenuRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
+  AdminMenuRoute: AdminMenuRoute,
+  ApiMenuRoute: ApiMenuRouteWithChildren,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
